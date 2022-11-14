@@ -9,7 +9,7 @@ questions = [
     },
     {
         "id": 2,
-        "question": "Our focus should be on individuals rather than group identities.",
+        "question": "Our focus should be on alienations rather than group identities.",
         "effects": {
             "social": 1
         }
@@ -30,14 +30,14 @@ questions = [
     },
     {
         "id": 5,
-        "question": "We are ultimately irrelevant as individuals, only our efforts to the group have a lasting effect.",
+        "question": "We are ultimately irrelevant as alienations, only our efforts to the group have a lasting effect.",
         "effects": {
             "social": -1
         }
     },
     {
         "id": 6,
-        "question": "It is okay to restrict individual rights if the community benefits from it.",
+        "question": "It is okay to restrict alienation rights if the community benefits from it.",
         "effects": {
             "social": -1
         }

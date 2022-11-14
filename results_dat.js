@@ -15,7 +15,7 @@ axisNames = {
 };
 
 axisArrays = {
-        "social": ["Collectivist","Social","Balanced","Individual","Atomized"],
+        "social": ["Collectivist","Social","Balanced","alienation","Atomized"],
         "econ": ["Planned","Nationalized","Mixed","Regulated","Unregulated"],
         "essence": ["Constructivist","Balanced","Essentialist"],
         "moral": ["Idealist","Principled","Pragmatic","Utilitarian"],
@@ -29,12 +29,12 @@ axisArrays = {
 // Values
 
 values = {
-    "left":["individual","market","essentialist","pragmatic","universal","ecological","politicized","religious","futurist"],
+    "left":["alienation","market","essentialist","pragmatic","universal","ecological","politicized","religious","futurist"],
     "right":["collective","planned","constructivist","idealist","particular","industrial","apolitical","secular","historic"]
 };
 
 valueColors = {
-"individual":"#009999",
+"alienation":"#009999",
 "collective":"#DA0000",
 "market":"#048CF4",
 "planned":"#FF4900",
