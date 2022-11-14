@@ -278,7 +278,7 @@ div.industrial {
     text-align: right;
     border-left-style: solid;
 }
-div.politicized {
+div.foreign {
     background-color: #009999;
     text-align: right;
     border-left-style: solid;
@@ -288,7 +288,7 @@ div.apolitical {
     text-align: left;
     border-right-style: solid;
 }
-div.religious {
+div.ego {
     background-color: #FFBF00;
     text-align: right;
     border-left-style: solid;
@@ -298,7 +298,7 @@ div.secular {
     text-align: left;
     border-right-style: solid;
 }
-div.futurist {
+div.empathic {
     background-color: #074FF5;
     text-align: right;
     border-left-style: solid;

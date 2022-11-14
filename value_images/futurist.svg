@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="200" height="200" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g id="Futurist" transform="matrix(2,0,0,2,0,0)">
+    <g id="empathic" transform="matrix(2,0,0,2,0,0)">
         <path id="rect5322" d="M100,3.75C100,1.68 98.32,0 96.25,0L3.75,0C1.68,0 0,1.68 0,3.75L0,96.25C0,98.32 1.68,100 3.75,100L96.25,100C98.32,100 100,98.32 100,96.25L100,3.75Z" style="fill:rgb(34,34,34);"/>
         <path id="rect5324" d="M95,7.5C95,6.12 93.88,5 92.5,5L7.5,5C6.12,5 5,6.12 5,7.5L5,92.5C5,93.88 6.12,95 7.5,95L92.5,95C93.88,95 95,93.88 95,92.5L95,7.5Z" style="fill:rgb(7,79,245);"/>
         <g id="spaceship" transform="matrix(0.0715,0,0,0.0715,50,45.3366)">

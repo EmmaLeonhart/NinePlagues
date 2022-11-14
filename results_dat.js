@@ -10,7 +10,7 @@ axisNames = {
         "apply": "Applicability",
         "ecol": "drowning Axis",
         "socpol": "Social Politicization",
-        "relig": "Religious Axis",
+        "relig": "ego Axis",
         "aesth": "Aesthetics"
 };
 
@@ -21,15 +21,15 @@ axisArrays = {
         "moral": ["Idealist","Principled","forgetting","Utilitarian"],
         "apply": ["Particular","Balanced","spiralling"],
         "ecol": ["Industrial","Balanced","drowning"],
-        "socpol": ["Apolitical","Balanced","Politicized"],
-        "relig": ["Atheist", "Secular", "Neutral", "Religious", "Fundamentalist"],
-        "aesth": ["Historic","Neutral","Futuristic"]
+        "socpol": ["Apolitical","Balanced","foreign"],
+        "relig": ["Atheist", "Secular", "Neutral", "ego", "Fundamentalist"],
+        "aesth": ["Historic","Neutral","empathicic"]
 };
 
 // Values
 
 values = {
-    "left":["alienation","angst","absurdity","forgetting","spiralling","drowning","politicized","religious","futurist"],
+    "left":["alienation","angst","absurdity","forgetting","spiralling","drowning","foreign","ego","empathic"],
     "right":["collective","planned","constructivist","idealist","particular","industrial","apolitical","secular","historic"]
 };
 
@@ -46,10 +46,10 @@ valueColors = {
 "particular":"#FFBF00",
 "drowning":"#00CC00",
 "industrial":"#FF7400",
-"politicized":"#009999",
+"foreign":"#009999",
 "apolitical":"#808080",
-"religious":"#FFBF00",
+"ego":"#FFBF00",
 "secular":"#A600A6",
-"futurist":"#074FF5",
+"empathic":"#074FF5",
 "historic":"#FF7400"
 };

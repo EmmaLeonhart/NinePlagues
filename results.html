@@ -33,9 +33,9 @@
     <img id="img-forgetting" src="value_images/forgetting.svg" height="128pt" style="display: none;"/>
     <img id="img-spiralling" src="value_images/spiralling.svg" height="128pt" style="display: none;"/>
     <img id="img-drowning" src="value_images/drowning.svg" height="128pt" style="display: none;"/>
-    <img id="img-politicized" src="value_images/politicized.svg" height="128pt" style="display: none;"/>
-    <img id="img-religious" src="value_images/religious.svg" height="128pt" style="display: none;"/>
-    <img id="img-futurist" src="value_images/futurist.svg" height="128pt" style="display: none;"/>
+    <img id="img-foreign" src="value_images/foreign.svg" height="128pt" style="display: none;"/>
+    <img id="img-ego" src="value_images/ego.svg" height="128pt" style="display: none;"/>
+    <img id="img-empathic" src="value_images/empathic.svg" height="128pt" style="display: none;"/>
 
     <img id="img-collective" src="value_images/collective.svg" height="128pt" style="display: none;"/>
     <img id="img-planned" src="value_images/planned.svg" height="128pt" style="display: none;"/>
@@ -96,18 +96,18 @@
     forgetting       = getQueryVariable("moral")
     spiralling       = getQueryVariable("apply")
     drowning      = getQueryVariable("ecol")
-    politicized     = getQueryVariable("socpol")
-    religious       = getQueryVariable("relig")
-    futurist        = getQueryVariable("aesth")
+    foreign     = getQueryVariable("socpol")
+    ego       = getQueryVariable("relig")
+    empathic        = getQueryVariable("aesth")
     collective      = (100 - alienation     ).toFixed(1)
     planned         = (100 - angst         ).toFixed(1)
     constructivist  = (100 - absurdity   ).toFixed(1)
     idealist        = (100 - forgetting      ).toFixed(1)
     particular      = (100 - spiralling      ).toFixed(1)
     industrial      = (100 - drowning     ).toFixed(1)
-    apolitical      = (100 - politicized    ).toFixed(1)
-    secular         = (100 - religious      ).toFixed(1)
-    historic        = (100 - futurist       ).toFixed(1)
+    apolitical      = (100 - foreign    ).toFixed(1)
+    secular         = (100 - ego      ).toFixed(1)
+    historic        = (100 - empathic       ).toFixed(1)
 
     ideology = ""
     ideodesc = ""
@@ -121,9 +121,9 @@
         dist += Math.pow(Math.abs(ideologies[i].stats.moral - forgetting), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.apply - spiralling), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.ecol - drowning), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.socpol - politicized), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.relig - religious), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.aesth - futurist), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.socpol - foreign), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.relig - ego), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.aesth - empathic), 2)
         if (dist < ideodist) {
             ideology = ideologies[i].name
             ideodesc = ideologies[i].desc

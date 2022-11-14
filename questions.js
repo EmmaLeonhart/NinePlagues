@@ -339,7 +339,7 @@ questions = [
     },
     {
         "id": 46,
-        "question": "Our youth should be taught about religious values.",
+        "question": "Our youth should be taught about ego values.",
         "effects": {
             "relig": 1
         }
@@ -353,7 +353,7 @@ questions = [
     },
     {
         "id": 48,
-        "question": "An ideal society should have a priesthood (or other religious ruling class).",
+        "question": "An ideal society should have a priesthood (or other ego ruling class).",
         "effects": {
             "relig": 1
         }
@@ -381,7 +381,7 @@ questions = [
     },
     {
         "id": 52,
-        "question": "It is very unlikely that a secular society will ever return to a religious one, as god remains dead once killed.",
+        "question": "It is very unlikely that a secular society will ever return to a ego one, as god remains dead once killed.",
         "effects": {
             "relig": -1
         }
