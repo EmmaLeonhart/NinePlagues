@@ -210,7 +210,7 @@ questions = [
     },
     {
         "id": 29,
-        "question": "There's nothing universal in universalism, as all theory is written from someone's cultural context.",
+        "question": "There's nothing spiralling in spirallingism, as all theory is written from someone's cultural context.",
         "effects": {
             "apply": -1
         }

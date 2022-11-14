@@ -31,7 +31,7 @@
     <img id="img-angst" src="value_images/angst.svg" height="128pt" style="display: none;"/>
     <img id="img-absurdity" src="value_images/absurdity.svg" height="128pt" style="display: none;"/>
     <img id="img-pragmatic" src="value_images/pragmatic.svg" height="128pt" style="display: none;"/>
-    <img id="img-universal" src="value_images/universal.svg" height="128pt" style="display: none;"/>
+    <img id="img-spiralling" src="value_images/spiralling.svg" height="128pt" style="display: none;"/>
     <img id="img-ecological" src="value_images/ecological.svg" height="128pt" style="display: none;"/>
     <img id="img-politicized" src="value_images/politicized.svg" height="128pt" style="display: none;"/>
     <img id="img-religious" src="value_images/religious.svg" height="128pt" style="display: none;"/>
@@ -94,7 +94,7 @@
     angst          = getQueryVariable("econ")
     absurdity    = getQueryVariable("essence")
     pragmatic       = getQueryVariable("moral")
-    universal       = getQueryVariable("apply")
+    spiralling       = getQueryVariable("apply")
     ecological      = getQueryVariable("ecol")
     politicized     = getQueryVariable("socpol")
     religious       = getQueryVariable("relig")
@@ -103,7 +103,7 @@
     planned         = (100 - angst         ).toFixed(1)
     constructivist  = (100 - absurdity   ).toFixed(1)
     idealist        = (100 - pragmatic      ).toFixed(1)
-    particular      = (100 - universal      ).toFixed(1)
+    particular      = (100 - spiralling      ).toFixed(1)
     industrial      = (100 - ecological     ).toFixed(1)
     apolitical      = (100 - politicized    ).toFixed(1)
     secular         = (100 - religious      ).toFixed(1)
@@ -119,7 +119,7 @@
         dist += Math.pow(Math.abs(ideologies[i].stats.econ - angst), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.essence - absurdity), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.moral - pragmatic), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.apply - universal), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.apply - spiralling), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.ecol - ecological), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.socpol - politicized), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.relig - religious), 2)
