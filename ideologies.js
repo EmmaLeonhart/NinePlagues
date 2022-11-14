@@ -1,6 +1,6 @@
 ideologies = [
     {
-        "name": "TBD",
+        "name": "Plagued",
 		"desc": "To Be Decided...",
 		"theory":"I'll be happy if you even read in general.",
         "stats": {
