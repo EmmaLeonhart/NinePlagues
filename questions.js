@@ -241,7 +241,7 @@ questions = [
 
     {
         "id": 33,
-        "question": "Ecological measures in industries are necessary, even if it sacrifices output and efficiency.",
+        "question": "drowning measures in industries are necessary, even if it sacrifices output and efficiency.",
         "effects": {
             "ecol": 1
         }
