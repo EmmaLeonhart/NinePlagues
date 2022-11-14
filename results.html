@@ -28,7 +28,7 @@
 
     <!-- HACK TO GET IMAGES PROPERLY WORK ON CANVAS -->
     <img id="img-alienation" src="value_images/alienation.svg" height="200%" style="display: none;"/>
-    <img id="img-market" src="value_images/market.svg" height="128pt" style="display: none;"/>
+    <img id="img-angst" src="value_images/angst.svg" height="128pt" style="display: none;"/>
     <img id="img-essentialist" src="value_images/essentialist.svg" height="128pt" style="display: none;"/>
     <img id="img-pragmatic" src="value_images/pragmatic.svg" height="128pt" style="display: none;"/>
     <img id="img-universal" src="value_images/universal.svg" height="128pt" style="display: none;"/>
@@ -91,7 +91,7 @@
 
     // GET VALUES
     alienation      = getQueryVariable("social")
-    market          = getQueryVariable("econ")
+    angst          = getQueryVariable("econ")
     essentialist    = getQueryVariable("essence")
     pragmatic       = getQueryVariable("moral")
     universal       = getQueryVariable("apply")
@@ -100,7 +100,7 @@
     religious       = getQueryVariable("relig")
     futurist        = getQueryVariable("aesth")
     collective      = (100 - alienation     ).toFixed(1)
-    planned         = (100 - market         ).toFixed(1)
+    planned         = (100 - angst         ).toFixed(1)
     constructivist  = (100 - essentialist   ).toFixed(1)
     idealist        = (100 - pragmatic      ).toFixed(1)
     particular      = (100 - universal      ).toFixed(1)
@@ -116,7 +116,7 @@
     for (var i = 0; i < ideologies.length; i++) {
         dist = 0
         dist += Math.pow(Math.abs(ideologies[i].stats.social - alienation), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.econ - market), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.econ - angst), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.essence - essentialist), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.moral - pragmatic), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.apply - universal), 2)

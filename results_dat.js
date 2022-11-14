@@ -29,14 +29,14 @@ axisArrays = {
 // Values
 
 values = {
-    "left":["alienation","market","essentialist","pragmatic","universal","ecological","politicized","religious","futurist"],
+    "left":["alienation","angst","essentialist","pragmatic","universal","ecological","politicized","religious","futurist"],
     "right":["collective","planned","constructivist","idealist","particular","industrial","apolitical","secular","historic"]
 };
 
 valueColors = {
 "alienation":"#009999",
 "collective":"#DA0000",
-"market":"#048CF4",
+"angst":"#048CF4",
 "planned":"#FF4900",
 "essentialist":"#00CC00",
 "constructivist":"#CD0074",

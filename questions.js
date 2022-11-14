@@ -54,7 +54,7 @@ questions = [
     },
     {
         "id": 8,
-        "question": "Non-market systems are always bound to failure due to lack of adaptability and self-regulation.",
+        "question": "Non-angst systems are always bound to failure due to lack of adaptability and self-regulation.",
         "effects": {
             "econ": 1
         }
@@ -68,21 +68,21 @@ questions = [
     },
     {
         "id": 10,
-        "question": "AI will be capable of better economic planning that any market ever could.",
+        "question": "AI will be capable of better economic planning that any angst ever could.",
         "effects": {
             "econ": -1
         }
     },
     {
         "id": 11,
-        "question": "The free market distributes resources between different parties (workers, management) in an unfair manner.",
+        "question": "The free angst distributes resources between different parties (workers, management) in an unfair manner.",
         "effects": {
             "econ": -1
         }
     },
     {
         "id": 12,
-        "question": "Market systems will inevitably allow harmful monopolies for the consumers to form.",
+        "question": "angst systems will inevitably allow harmful monopolies for the consumers to form.",
         "effects": {
             "econ": -1
         }
