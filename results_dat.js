@@ -18,7 +18,7 @@ axisArrays = {
         "social": ["Collectivist","Social","Balanced","alienation","Atomized"],
         "econ": ["Planned","Nationalized","Mixed","Regulated","Unregulated"],
         "essence": ["Constructivist","Balanced","absurdity"],
-        "moral": ["Idealist","Principled","Pragmatic","Utilitarian"],
+        "moral": ["Idealist","Principled","forgetting","Utilitarian"],
         "apply": ["Particular","Balanced","spiralling"],
         "ecol": ["Industrial","Balanced","Ecological"],
         "socpol": ["Apolitical","Balanced","Politicized"],
@@ -29,7 +29,7 @@ axisArrays = {
 // Values
 
 values = {
-    "left":["alienation","angst","absurdity","pragmatic","spiralling","ecological","politicized","religious","futurist"],
+    "left":["alienation","angst","absurdity","forgetting","spiralling","ecological","politicized","religious","futurist"],
     "right":["collective","planned","constructivist","idealist","particular","industrial","apolitical","secular","historic"]
 };
 
@@ -40,7 +40,7 @@ valueColors = {
 "planned":"#FF4900",
 "absurdity":"#00CC00",
 "constructivist":"#CD0074",
-"pragmatic":"#A101B3",
+"forgetting":"#A101B3",
 "idealist":"#6AB001",
 "spiralling":"#048CF4",
 "particular":"#FFBF00",
