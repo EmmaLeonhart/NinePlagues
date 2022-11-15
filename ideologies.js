@@ -1,18 +1,18 @@
 ideologies = [
     {
         "name": "Plagued",
-		"desc": "To Be Decided...",
+		"desc": "An equal level of all plagues",
 		"theory":"I'll be happy if you even read in general.",
         "stats": {
-            "alien": 30,
-            "angst": 35,
-            "absurd": 95,
-            "forg": 50,
-			"spiral": 35,
-			"drown": 70,
-			"foreign": 66,
-			"ego": 70,
-			"empath": 60
+            "alien": 100,
+            "angst": 100,
+            "absurd": 100,
+            "forg": 100,
+			"spiral": 100,
+			"drown": 100,
+			"foreign": 100,
+			"ego": 100,
+			"empath": 100
         }
     }
 ];
