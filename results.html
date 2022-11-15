@@ -117,9 +117,9 @@
 
     // triads
 
-    domicide = (getQueryVariable("alien") + getQueryVariable("angst") + getQueryVariable("absurd")) / 3
-    foolish = (getQueryVariable("forg") + getQueryVariable("spiral") + getQueryVariable("drown")) / 3
-    entrapment = (getQueryVariable("foreign") + getQueryVariable("ego") + getQueryVariable("empath")) / 3 
+    domicide = Math.floor((+ alienation + +angst + +absurdity) / 3)
+    foolish = Math.floor((+ forgetting + +spiralling + +drowning) / 3)
+    entrapment = Math.floor((+ foreign + +ego + +empathic) / 3)
 
     ideology = ""
     ideodesc = ""
