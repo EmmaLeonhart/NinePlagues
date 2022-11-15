@@ -60,6 +60,7 @@
     <p>Domicide: <span class="weight-300" id="domicide"></span></p>
     <p>Foolishness: <span class="weight-300" id="foolish"></span></p>
     <p>Entrapment: <span class="weight-300" id="entrapment"></span></p>
+    <p>Total: <span class="weight-300" id="plagueTotal"></span></p>
     <button class="button" onclick="location.href='index.html';" style="background-color: #2196f3;">Back</button> <br>
 
     <hr/>
@@ -120,6 +121,7 @@
     domicide = Math.floor((+ alienation + +angst + +absurdity) / 3)
     foolish = Math.floor((+ forgetting + +spiralling + +drowning) / 3)
     entrapment = Math.floor((+ foreign + +ego + +empathic) / 3)
+    plagueTotal = Math.floor(+ alienation + + angst + + absurdity + + forgetting + + spiralling + + drowning + + foreign + + ego + + empathic)
 
     ideology = ""
     ideodesc = ""
@@ -149,6 +151,7 @@
     document.getElementById("domicide").innerHTML = domicide
     document.getElementById("foolish").innerHTML = foolish
     document.getElementById("entrapment").innerHTML = entrapment
+    document.getElementById("plagueTotal").innerHTML = plagueTotal
 
     window.onload = function() {
         var c = document.getElementById("banner")
