@@ -1,29 +1,29 @@
 // Axis Labels
 
-labels = ["social","econ","essence","moral","apply","ecol","socpol","relig","aesth"];
+labels = ["aa","al","ao","la","ll","lo","oa","ol","oo"];
 
 axisNames = {
-        "social": "Social Axis",
-        "econ": "Economic Axis",
-        "essence": "Essence Worldview",
-        "moral": "Moral Worldview",
-        "apply": "Applicability",
-        "ecol": "drowning Axis",
-        "socpol": "Social Politicization",
-        "relig": "ego Axis",
-        "aesth": "Aesthetics"
+        "aa": "Social Axis",
+        "al": "Economic Axis",
+        "ao": "Essence Worldview",
+        "la": "Moral Worldview",
+        "ll": "Applicability",
+        "lo": "drowning Axis",
+        "oa": "Social Politicization",
+        "ol": "ego Axis",
+        "oo": "Aesthetics"
 };
 
 axisArrays = {
-        "social": ["Collectivist","Social","Balanced","alienation","Atomized"],
-        "econ": ["Planned","Nationalized","Mixed","Regulated","Unregulated"],
-        "essence": ["Constructivist","Balanced","absurdity"],
-        "moral": ["Idealist","Principled","forgetting","Utilitarian"],
-        "apply": ["Particular","Balanced","spiralling"],
-        "ecol": ["Industrial","Balanced","drowning"],
-        "socpol": ["Apolitical","Balanced","foreign"],
-        "relig": ["Atheist", "Secular", "Neutral", "ego", "Fundamentalist"],
-        "aesth": ["Historic","Neutral","empathicic"]
+        "aa": ["Collectivist","aa","Balanced","alienation","Atomized"],
+        "al": ["Planned","Nationalized","Mixed","Regulated","Unregulated"],
+        "ao": ["Constructivist","Balanced","absurdity"],
+        "la": ["Idealist","Principled","forgetting","Utilitarian"],
+        "ll": ["Particular","Balanced","spiralling"],
+        "lo": ["Industrial","Balanced","drowning"],
+        "oa": ["Apolitical","Balanced","foreign"],
+        "ol": ["Atheist", "Secular", "Neutral", "ego", "Fundamentalist"],
+        "oo": ["Historic","Neutral","empathicic"]
 };
 
 // Values

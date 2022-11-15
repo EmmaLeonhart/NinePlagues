@@ -4,15 +4,15 @@ ideologies = [
 		"desc": "To Be Decided...",
 		"theory":"I'll be happy if you even read in general.",
         "stats": {
-            "social": 30,
-            "econ": 35,
-            "essence": 95,
-            "moral": 50,
-			"apply": 35,
-			"ecol": 70,
-			"socpol": 66,
-			"relig": 70,
-			"aesth": 60
+            "aa": 30,
+            "al": 35,
+            "ao": 95,
+            "la": 50,
+			"ll": 35,
+			"lo": 70,
+			"oa": 66,
+			"ol": 70,
+			"oo": 60
         }
     }
 ];
