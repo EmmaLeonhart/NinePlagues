@@ -9,35 +9,35 @@ questions = [
     },
     {
         "id": 2,
-        "question": "Our focus should be on alienations rather than group identities.",
+        "question": "I struggle to make friends.",
         "effects": {
             "alien": 1
         }
     },
     {
         "id": 3,
-        "question": "Live and let live is the best life philosophy.",
+        "question": "You cannot trust others with your feelings?.",
         "effects": {
             "alien": 1
         }
     },
     {
         "id": 4,
-        "question": "Every lifestyle affects society in a way, and should be condemned or approved accordingly.",
+        "question": "I know I can trust my friends.",
         "effects": {
             "alien": -1
         }
     },
     {
         "id": 5,
-        "question": "We are ultimately irrelevant as alienations, only our efforts to the group have a lasting effect.",
+        "question": "People are fundamentally good.",
         "effects": {
             "alien": -1
         }
     },
     {
         "id": 6,
-        "question": "It is okay to restrict alienation rights if the community benefits from it.",
+        "question": "I have people who depend on me.",
         "effects": {
             "alien": -1
         }
