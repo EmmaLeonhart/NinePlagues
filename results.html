@@ -56,7 +56,12 @@
 
 
     <canvas id="banner" width=800 height=1250  style="font-family:Montserrat"></canvas>
+    <h3>Analysis</h3>
+    <p>Domicide: <span class="weight-300" id="domicide"></span></p>
+    <p>Foolishness: <span class="weight-300" id="foolish"></span></p>
+    <p>Entrapment: <span class="weight-300" id="entrapment"></span></p>
     <button class="button" onclick="location.href='index.html';" style="background-color: #2196f3;">Back</button> <br>
+
     <hr/>
     <p style="text-align: center">You can contact me via <a href="mailto:censusbot3@gmail.com">censusbot3@gmail.com</a>, <a href="https://discord.gg/vwqk2UZ">Discord</a> or <a href="https://twitter.com/sunkdatadiver">Twitter</a>.</p>
 
@@ -110,6 +115,12 @@
     secular         = (100 - ego      ).toFixed(1)
     historic        = (100 - empathic       ).toFixed(1)
 
+    // triads
+
+    domicide = (getQueryVariable("alien") + getQueryVariable("angst") + getQueryVariable("absurd")) / 3
+    foolish = (getQueryVariable("forg") + getQueryVariable("spiral") + getQueryVariable("drown")) / 3
+    entrapment = (getQueryVariable("foreign") + getQueryVariable("ego") + getQueryVariable("empath")) / 3 
+
     ideology = ""
     ideodesc = ""
     theory = ""
@@ -135,6 +146,9 @@
     document.getElementById("ideology-label").innerHTML = ideology
     document.getElementById("ideodesc-label").innerHTML = ideodesc
     //document.getElementById("theory-label").innerHTML = theory
+    document.getElementById("domicide").innerHTML = domicide
+    document.getElementById("foolish").innerHTML = foolish
+    document.getElementById("entrapment").innerHTML = entrapment
 
     window.onload = function() {
         var c = document.getElementById("banner")
