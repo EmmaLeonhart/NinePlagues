@@ -36,4 +36,34 @@ Enlensing is the solution to this
 
 Forgetting
 
-Your problems lie most in
+Your problems lie most in fulfilling spiritual growth needs with material things
+
+The solution is to remember wonder
+
+Spiralling
+
+Your problems lie mostly in overfocusing on things like drugs or political ideologies
+
+The solution is to explore new activities and ideas
+
+Drowning
+
+Your problems lie mostly in inability to make decisions. The solution is to engage in extreme sports and gaming
+
+Foreign Entrapment
+
+Your problems lie most in letting ideas that do not apply to you affect you. This is a product of your ability to adapt and learn from others and situations being used against you
+
+The solution is to recognize foreign ideas and free youerself from them
+
+Ego Entrapment
+
+Your problems lie in using a specific vision of yourself as a defense mechjanism. This means you can do something like identify as a failure so that you do not feel bad about failing. This is keeping you back in life because if you succeed then your identification as a failure will means everything was a waste so pain becomes ServiceWorkerRegistration
+
+The solution is ego death and solitary activities like climbing TimeRanges
+
+Empathic Entrapment
+
+Yopur problems lie in not being able to make other worldviews plausible to yourself
+
+The solution is larping
