@@ -17,3 +17,23 @@ Entrapment
 Your problems mostly center around not being exposed to new ideas
 
 You should focus on exploring new ideas
+
+Alienation
+
+Your problems lie most in lack of community. 
+Join our discord server for help with that
+
+Angst
+
+Your problems lie most in inner conflict
+Reading aloud with the community will help with that
+
+Absurdity
+
+Your problems lie most in feeling disconnected from your environment and lost
+
+Enlensing is the solution to this
+
+Forgetting
+
+Your problems lie most in
