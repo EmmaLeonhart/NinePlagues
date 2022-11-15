@@ -116,15 +116,15 @@
     ideodist = Infinity
     for (var i = 0; i < ideologies.length; i++) {
         dist = 0
-        dist += Math.pow(Math.abs(ideologies[i].stats.social - alienation), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.econ - angst), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.essence - absurdity), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.moral - forgetting), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.apply - spiralling), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.ecol - drowning), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.socpol - foreign), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.relig - ego), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.aesth - empathic), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.alien - alienation), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.angst - angst), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.absurd - absurdity), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.forg - forgetting), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.spiral - spiralling), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.drown - drowning), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.foreign - foreign), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.ego - ego), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.empath - empathic), 2)
         if (dist < ideodist) {
             ideology = ideologies[i].name
             ideodesc = ideologies[i].desc
