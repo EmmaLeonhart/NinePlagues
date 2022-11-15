@@ -4,15 +4,15 @@ ideologies = [
 		"desc": "To Be Decided...",
 		"theory":"I'll be happy if you even read in general.",
         "stats": {
-            "aa": 30,
-            "al": 35,
-            "ao": 95,
-            "la": 50,
-			"ll": 35,
-			"lo": 70,
-			"oa": 66,
-			"ol": 70,
-			"oo": 60
+            "alien": 30,
+            "angst": 35,
+            "absurd": 95,
+            "forg": 50,
+			"spiral": 35,
+			"drown": 70,
+			"foreign": 66,
+			"ego": 70,
+			"empath": 60
         }
     }
 ];

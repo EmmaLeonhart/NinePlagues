@@ -4,42 +4,42 @@ questions = [
         "id": 1,
         "question": "The only person someone can truly rely on is himself.",
         "effects": {
-            "aa": 1
+            "alien": 1
         }
     },
     {
         "id": 2,
         "question": "Our focus should be on alienations rather than group identities.",
         "effects": {
-            "aa": 1
+            "alien": 1
         }
     },
     {
         "id": 3,
         "question": "Live and let live is the best life philosophy.",
         "effects": {
-            "aa": 1
+            "alien": 1
         }
     },
     {
         "id": 4,
         "question": "Every lifestyle affects society in a way, and should be condemned or approved accordingly.",
         "effects": {
-            "aa": -1
+            "alien": -1
         }
     },
     {
         "id": 5,
         "question": "We are ultimately irrelevant as alienations, only our efforts to the group have a lasting effect.",
         "effects": {
-            "aa": -1
+            "alien": -1
         }
     },
     {
         "id": 6,
         "question": "It is okay to restrict alienation rights if the community benefits from it.",
         "effects": {
-            "aa": -1
+            "alien": -1
         }
     },
 
@@ -49,42 +49,42 @@ questions = [
         "id": 7,
         "question": "If we are to have state enterprises, then they should be run on the same principles as private ones.",
         "effects": {
-            "al": 1
+            "angst": 1
         }
     },
     {
         "id": 8,
         "question": "Non-angst systems are always bound to failure due to lack of adaptability and self-regulation.",
         "effects": {
-            "al": 1
+            "angst": 1
         }
     },
     {
         "id": 9,
         "question": "Governments are bound to regulations and lobbying which usually give unfair advantages to large corporations.",
         "effects": {
-            "al": 1
+            "angst": 1
         }
     },
     {
         "id": 10,
         "question": "AI will be capable of better economic planning that any angst ever could.",
         "effects": {
-            "al": -1
+            "angst": -1
         }
     },
     {
         "id": 11,
         "question": "The free angst distributes resources between different parties (workers, management) in an unfair manner.",
         "effects": {
-            "al": -1
+            "angst": -1
         }
     },
     {
         "id": 12,
         "question": "angst systems will inevitably allow harmful monopolies for the consumers to form.",
         "effects": {
-            "al": -1
+            "angst": -1
         }
     },
 
@@ -94,42 +94,42 @@ questions = [
         "id": 13,
         "question": "The intelligence of some people can be explained by their genetics.",
         "effects": {
-            "ao": 1
+            "absurd": 1
         }
     },
     {
         "id": 14,
         "question": "Poor socio-economic conditions are caused by people themselves (or their nature), not 'institutionalized oppression'.",
         "effects": {
-            "ao": 1
+            "absurd": 1
         }
     },
     {
         "id": 15,
         "question": "The roles of genders are mainly determined by biological traits, rather than societal ones.",
         "effects": {
-            "ao": 1
+            "absurd": 1
         }
     },
     {
         "id": 16,
         "question": "Rehabilitation is a legitimate alternative to punishment, as it can lower re-offending rates.",
         "effects": {
-            "ao": -1
+            "absurd": -1
         }
     },
     {
         "id": 17,
         "question": "There are no 'inherent' traits in people, as they are mainly determined by their environment (upbringing, society).",
         "effects": {
-            "ao": -1
+            "absurd": -1
         }
     },
     {
         "id": 18,
         "question": "Crime generally arises from poor socio-economic factors and isn't caused by their 'genetic traits'.",
         "effects": {
-            "ao": -1
+            "absurd": -1
         }
     },
 
@@ -139,42 +139,42 @@ questions = [
         "id": 19,
         "question": "The end generally justifies the means - outcome is the priority.",
         "effects": {
-            "la": 1
+            "forg": 1
         }
     },
     {
         "id": 20,
         "question": "Opportunism is a valid strategy to achieve desired goals.",
         "effects": {
-            "la": 1
+            "forg": 1
         }
     },
     {
         "id": 21,
         "question": "Some compromises need to be done to keep the opposition from turning too hostile against us.",
         "effects": {
-            "la": 1
+            "forg": 1
         }
     },
     {
         "id": 22,
         "question": "Compromises usually lead to abandonment of principles in the long run.",
         "effects": {
-            "la": -1
+            "forg": -1
         }
     },
     {
         "id": 23,
         "question": "There are certain principles we must adhere to get to our goal.",
         "effects": {
-            "la": -1
+            "forg": -1
         }
     },
     {
         "id": 24,
         "question": "Even 'utopic' goals should be thrived towards. Many ideas once thought impossible are a reality nowadays.",
         "effects": {
-            "la": -1
+            "forg": -1
         }
     },
 
@@ -184,56 +184,56 @@ questions = [
         "id": 25,
         "question": "Globalization is inevitable; There's no way to reverse modern hyper-connectivity.",
         "effects": {
-            "ll": 1
+            "spiral": 1
         }
     },
     {
         "id": 26,
         "question": "There are ideas from every cultures that we could apply either in our personal lives or society.",
         "effects": {
-            "ll": 1
+            "spiral": 1
         }
     },
     {
         "id": 27,
         "question": "Group identities and tribalism are the main factors slowing us down as a mankind.",
         "effects": {
-            "ll": 1
+            "spiral": 1
         }
     },
     {
         "id": 28,
         "question": "My idea(s) can be theoretically applied across the world.",
         "effects": {
-            "ll": 1
+            "spiral": 1
         }
     },
     {
         "id": 29,
         "question": "There's nothing spiralling in spirallingism, as all theory is written from someone's cultural context.",
         "effects": {
-            "ll": -1
+            "spiral": -1
         }
     },
     {
         "id": 30,
         "question": "Each nation must develop on their own terms and hence determine their own fate.",
         "effects": {
-            "ll": -1
+            "spiral": -1
         }
     },
     {
         "id": 31,
         "question": "(Ethnic) minorities will never be able to fully assimilate and their children will be living in an identity crisis.",
         "effects": {
-            "ll": -1
+            "spiral": -1
         }
     },
     {
         "id": 32,
         "question": "Globalism is a threat to my ideal way of social order.",
         "effects": {
-            "ll": -1
+            "spiral": -1
         }
     },
 
@@ -243,42 +243,42 @@ questions = [
         "id": 33,
         "question": "drowning measures in industries are necessary, even if it sacrifices output and efficiency.",
         "effects": {
-            "lo": 1
+            "drown": 1
         }
     },
     {
         "id": 34,
         "question": "The Industrial Revolution and its consequences have been a disaster for the human race.",
         "effects": {
-            "lo": 1
+            "drown": 1
         }
     },
     {
         "id": 35,
         "question": "Alienation from nature is the primary cause of many modern issues.",
         "effects": {
-            "lo": 1
+            "drown": 1
         }
     },
     {
         "id": 36,
         "question": "Certain pollutive industries are just necessary evils to upkeep our society.",
         "effects": {
-            "lo": -1
+            "drown": -1
         }
     },
     {
         "id": 37,
         "question": "I'd rather live in a city with conveniences than in the countryside.",
         "effects": {
-            "lo": -1
+            "drown": -1
         }
     },
     {
         "id": 38,
         "question": "Neo-luddites are naive people whose society would collapse or get conquered by others within hours.",
         "effects": {
-            "lo": -1
+            "drown": -1
         }
     },
 
@@ -289,42 +289,42 @@ questions = [
         "id": 39,
         "question": "There should be political youth organizations (like Komsomol) to instill our values in the youth",
         "effects": {
-            "oa": 1
+            "foreign": 1
         }
     },
     {
         "id": 40,
         "question": "Political successes, even if due to foreign factors, should be attributed to our ideology.",
         "effects": {
-            "oa": 1
+            "foreign": 1
         }
     },
     {
         "id": 41,
         "question": "Politics is one of the most important aspects of society, as it determines which way society moves.",
         "effects": {
-            "oa": 1
+            "foreign": 1
         }
     },
     {
         "id": 42,
         "question": "I just want to grill, for god's sake!",
         "effects": {
-            "oa": -1
+            "foreign": -1
         }
     },
     {
         "id": 43,
         "question": "Politics shouldn't be taught in schools, as it is inherently done in a biased manner.",
         "effects": {
-            "oa": -1
+            "foreign": -1
         }
     },
     {
         "id": 44,
         "question": "Certain people will always handle their lives better and are more successful, regardless of the political system.",
         "effects": {
-            "oa": -1
+            "foreign": -1
         }
     },
 
@@ -334,56 +334,56 @@ questions = [
         "id": 45,
         "question": "Religion helps people to self-actualize themselves, rather than constraint them.",
         "effects": {
-            "ol": 1
+            "ego": 1
         }
     },
     {
         "id": 46,
         "question": "Our youth should be taught about ego values.",
         "effects": {
-            "ol": 1
+            "ego": 1
         }
     },
     {
         "id": 47,
         "question": "It is abhorrent to see how human spirituality has been neglected in our society.",
         "effects": {
-            "ol": 1
+            "ego": 1
         }
     },
     {
         "id": 48,
         "question": "An ideal society should have a priesthood (or other ego ruling class).",
         "effects": {
-            "ol": 1
+            "ego": 1
         }
     },
     {
         "id": 49,
         "question": "Religions are generally a tool to control the masses, even today.",
         "effects": {
-            "ol": -1
+            "ego": -1
         }
     },
     {
         "id": 50,
         "question": "The harm done by religions (corruption, wars) outweighs the 'spiritual' benefits.",
         "effects": {
-            "ol": -1
+            "ego": -1
         }
     },
     {
         "id": 51,
         "question": "Religion has no place in my society.",
         "effects": {
-            "ol": -1
+            "ego": -1
         }
     },
     {
         "id": 52,
         "question": "It is very unlikely that a secular society will ever return to a ego one, as god remains dead once killed.",
         "effects": {
-            "ol": -1
+            "ego": -1
         }
     },
 
@@ -393,42 +393,42 @@ questions = [
         "id": 53,
         "question": "If possible, I would go on a vacation to the cosmos.",
         "effects": {
-            "oo": 1
+            "empath": 1
         }
     },
     {
         "id": 54,
         "question": "I could describe my aesthetic preferences with: Space, acceleration, technology, youth.",
         "effects": {
-            "oo": 1
+            "empath": 1
         }
     },
     {
         "id": 55,
         "question": "I'd rather read science fiction than a book about history.",
         "effects": {
-            "oo": 1
+            "empath": 1
         }
     },
     {
         "id": 56,
         "question": "I'm interested in the history of ancient civilizations (Greek, Rome, etc).",
         "effects": {
-            "oo": -1
+            "empath": -1
         }
     },
     {
         "id": 57,
         "question": "Modern architecture feels dull and cheap.",
         "effects": {
-            "oo": -1
+            "empath": -1
         }
     },
     {
         "id": 58,
         "question": "I could describe my aesthetic preferences with: Godly, mighty, strong, ideal.",
         "effects": {
-            "oo": -1
+            "empath": -1
         }
     }
 ];
