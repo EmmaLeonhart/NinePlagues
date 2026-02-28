@@ -1,19 +1,32 @@
 # NinePlagues
 
-**A spiritual diagnostic quiz built on a nine-axis framework of existential ailments.**
-
-NinePlagues is a browser-based self-assessment tool that attempts to diagnose spiritual and psychological afflictions according to a philosophical system rooted in [Evolutionist](https://evolution.faith/ninefold-vaccine/) thought. Users answer 58 statements on a Likert scale and receive a scored profile across nine dimensions of spiritual illness, along with a diagnosis and suggested remedial practices.
-
-> **Status:** This project is incomplete and not actively maintained. It is hosted as a GitHub Pages site.
+> **Status:** This project is incomplete and not actively maintained.
 
 **Live site:** [https://their-holiness.github.io/NinePlagues/](https://their-holiness.github.io/NinePlagues/)
 
 ---
 
+## What Is NinePlagues?
+
+NinePlagues is a quiz that diagnoses your **spiritual illnesses** — nine fundamental ways people get stuck, disconnected, or distracted in life — and suggests practices to address them. It is part of the [Evolutionist](https://evolution.faith/ninefold-vaccine/) philosophical and spiritual tradition.
+
+Think of it like a personality test, but instead of telling you *what kind of person you are*, it tells you *what's getting in your way* and *what to do about it*.
+
+## How to Take the Quiz
+
+1. Go to the [live site](https://their-holiness.github.io/NinePlagues/).
+2. Click **"Click here to start!"** and read the brief instructions.
+3. You'll be presented with **58 statements**. For each one, respond with how much you agree or disagree — from **Strongly Agree** to **Strongly Disagree**. If a statement doesn't make sense to you, choose **Don't Know / Don't Understand** to skip it.
+4. At the end, you'll receive a results page showing your score on all nine plague axes, a visual breakdown, and a diagnosis with suggested remedies.
+
+Answer honestly — there are no right or wrong answers.
+
+---
+
 ## Table of Contents
 
-- [The Nine Plagues](#the-nine-plagues)
-- [How the Quiz Works](#how-the-quiz-works)
+- [The Nine Axes](#the-nine-axes)
+- [How Scoring Works](#how-scoring-works)
 - [Diagnostic Categories](#diagnostic-categories)
 - [Project Structure](#project-structure)
 - [Technical Architecture](#technical-architecture)
@@ -23,9 +36,11 @@ NinePlagues is a browser-based self-assessment tool that attempts to diagnose sp
 
 ---
 
-## The Nine Plagues
+## The Nine Axes
 
-The philosophical framework identifies nine spiritual illnesses organized into three triads:
+The quiz measures you on nine axes. Each axis runs from a **plague** (a spiritual illness) to its **opposite virtue** (the healthy counterpart). Your score on each axis is a percentage: higher means more plagued, lower means more liberated on that dimension.
+
+The nine plagues are organized into three groups of three:
 
 ### Domicide (Disconnection)
 
@@ -59,41 +74,29 @@ Plagues of rigidity and resistance to growth.
 
 ---
 
-## How the Quiz Works
+## How Scoring Works
 
-### Flow
-
-1. **Landing page** (`index.html`) — Overview of the system and plague descriptions.
-2. **Instructions** (`instructions.html`) — Brief explanation of how to answer.
-3. **Quiz** (`quiz.html`) — 58 statements presented in randomized order. Each is answered on a five-point scale:
-   - Strongly Agree (+1.0)
-   - Agree (+0.5)
-   - Neutral (0.0)
-   - Disagree (-0.5)
-   - Strongly Disagree (-1.0)
-   - A sixth option, "Don't Know / Don't Understand," skips the question entirely.
-4. **Feedback** (`feedback.html`) — Optional anonymous demographic survey (only on the deployed site).
-5. **Results** (`results.html`) — Scored profile with a canvas-rendered visualization, diagnosis, and triadic analysis.
-
-### Scoring
-
-Each question has weighted effects on one or more plague axes. Raw scores are normalized to a 0–100 percentage scale using the formula:
+Each of the 58 questions has weighted effects on one or more plague axes. Your responses are scored on a scale from Strongly Agree (+1.0) to Strongly Disagree (-1.0), with Neutral at 0. Raw scores are normalized to a 0–100 percentage:
 
 ```
 percentage = 100 * (maxPossibleScore + rawScore) / (2 * maxPossibleScore)
 ```
 
-A score of **50%** is neutral. Scores above 50% indicate the presence of that plague; scores below 50% indicate its opposite virtue.
+- **50%** = neutral on that axis
+- **Above 50%** = presence of that plague
+- **Below 50%** = leaning toward the opposite virtue
 
-### Results Visualization
+Questions are presented in randomized order each time you take the quiz. After completion, the deployed site optionally offers an anonymous demographic survey before showing results.
 
-The results page generates an HTML5 Canvas image displaying:
+### Results Page
 
-- Nine horizontal bars, one per plague axis, color-coded by triad
-- The user's percentage on each axis
-- The plague name on one end and its opposing virtue on the other
-- A textual diagnosis (closest matching archetype)
-- Aggregate scores for each triad (Domicide, Foolishness, Entrapment)
+Your results page shows:
+
+- Nine color-coded horizontal bars — one per axis, with the plague on one end and its opposite virtue on the other
+- Your percentage score on each axis
+- A **diagnosis** — the closest matching archetype (see below)
+- **Triadic totals** — aggregate scores for Domicide, Foolishness, and Entrapment
+- A shareable canvas-rendered image of your full profile
 
 ---
 
